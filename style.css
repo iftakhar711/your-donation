@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    line-height: 40px;
+
+}
+
+p {
+    margin-bottom: 70px;
+}
+
+
+.button {
+    background-color: tomato;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 12px;
+    color: aliceblue;
+
+}
+
+.donate-center {
+    text-align: center;
+    padding-top: 180px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.back-img {
+    height: 700px;
+    width: 1530px;
+    background-image: url(images/pexels-antoni-shkraba-7345444.jpg);
+    background-size: cover;
+}
