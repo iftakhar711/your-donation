@@ -11,30 +11,51 @@ h1 {
 
 }
 
-p {
-    margin-bottom: 70px;
-}
-
-
 .button {
     background-color: tomato;
     text-decoration: none;
     padding: 12px 32px;
     border-radius: 12px;
     color: aliceblue;
+    line-height: 100px;
 
 }
 
 .donate-center {
     text-align: center;
-    padding-top: 180px;
+    padding-top: 100px;
     padding-left: 300px;
     padding-right: 300px;
 }
 
 .back-img {
     height: 700px;
-    width: 1530px;
+    width: 1510px;
     background-image: url(images/pexels-antoni-shkraba-7345444.jpg);
     background-size: cover;
+}
+
+
+.display-flex {
+    display: flex;
+    width: 20%;
+    padding: 0 500px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.line {
+    box-shadow: 10px 10px 30px rgba(192, 154, 154, 0.312);
+    padding: 16px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.active {
+    border: 2px solid tomato;
+    background-color: blanchedalmond;
+
 }
